@@ -1,0 +1,95 @@
+/* skriv ind for at nulstille alle autoindstillinger så jeg selv kan bygge op derfra */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* Class for min cta knapper så der kommer en boks rundt om og at fjerne tekst dekoration  */
+/* .cta {
+  margin: 10px 20px;
+  background-color: #096146;
+  color: white;
+  padding: 6px;
+} */
+.cta {
+  margin: 0px 16px;
+  background-color: #096146;
+  color: white;
+  padding: 8px;
+}
+
+header {
+  background-color: #fc8b00;
+  padding: 13px 22px;
+  /* padding retter/flytetr teksten  */
+}
+
+.header-forside {
+  background-color: #0b4130;
+  padding: 13px 22px;
+  color: white;
+}
+
+.header-forside a {
+  color: white;
+}
+
+header a {
+  color: #804600;
+}
+
+footer {
+  background-color: #0b4130;
+  padding: 5px 7px;
+  margin-top: 20px;
+}
+.div-forside {
+  padding: 10px 10px;
+  background-color: #0b4130;
+}
+.footer-forside {
+  background-color: #fc8b00;
+  padding: 13px 22px;
+  padding: 15px 7px;
+}
+
+h2,
+h3 {
+  font-family: "franklin gothic medium", "arial narrow", arial, sans-serif;
+}
+/* EB "Garamond",
+    serif; */
+
+p {
+  font-family: "franklin gothic medium", "arial narrow", arial, sans-serif;
+  /* font-family: "EB Garamond", serif; */
+}
+
+ul {
+  font-family: "franklin gothic medium", "arial narrow", arial, sans-serif;
+}
+.buret {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.div-forside {
+  position: absolute;
+  top: 103%;
+  left: 58%;
+  width: 40%;
+}
+.forside-h1 {
+  position: absolute;
+  top: 7%;
+  left: 1, 5%;
+  width: 70%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffaa00;
+  font-size: 550%;
+}
